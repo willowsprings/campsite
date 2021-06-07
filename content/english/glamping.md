@@ -1,6 +1,6 @@
 ---
 
-layout: "glamping"
+layout: "camping"
 menu:
   main:
     name: "Glamping"
@@ -87,4 +87,18 @@ extras:
       price: £5
     - name: Charging of phones, e-bikes and other electronics
       price: £1/charge
+
+testimonial:
+  enable: true
+  quote: Quiet, clean, well serviced and welcoming campsite, perfectly located for mountain bikers and walkers looking to explore the surrounding forestry and mountains. Would highly recommend if you’re looking for somewhere quiet and stress free with great views...
+  author: Guest from Cardiff
+  date: Aug 2020
+
+photos:
+- small: images/gallery/IMG_2587.JPG
+- small: images/gallery/IMG_2590.jpg
+- small: images/gallery/IMG_2591.jpg
+- small: images/gallery/IMG_2594.jpg
+- small: images/gallery/IMG_2595.jpg
+
 ---

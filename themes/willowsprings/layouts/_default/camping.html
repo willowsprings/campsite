@@ -1,10 +1,11 @@
 {{ define "main" }}
-{{ with site.GetPage "/camping"}}
 
 {{ partial "partials/banner.html" . }}
 {{ partial "partials/copyblock.html" . }}
 {{ partial "partials/offerings.html" . }}
 {{ partial "partials/extras.html" . }}
 
-{{ end }}
+{{ partial "testimonial.html" .Params.testimonial }}
+{{ partial "photos.html" .Params.photos }}
+
 {{ end }}

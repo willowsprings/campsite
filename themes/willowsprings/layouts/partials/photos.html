@@ -3,7 +3,7 @@
         <ul class="photos">
             {{ range . -}}
             <li class="photo">
-                <img src="{{.src | relURL }}" />
+                <img src="{{.small | relURL }}" />
             </li>
             {{end}}
         </ul>
