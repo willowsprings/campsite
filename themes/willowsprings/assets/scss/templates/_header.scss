@@ -1,0 +1,47 @@
+/*--
+	Header Start
+--*/
+
+header {
+
+	background-color: $light-bg;
+
+	.container {
+		position: relative;
+		height: 100px;
+	}
+	.logo {
+		position: absolute;
+		left: 0;
+		z-index: 5;
+		width: 90px;
+		bottom: 0;
+	}
+
+	.hamburger {
+		display: none;
+	}
+
+//   @include desktop {
+//     min-height: 90px;
+//   }
+
+	display: grid;
+
+	// padding: 20px 0;
+	.navlinks {
+		float: right;
+		margin-top: 20px;
+		font-weight: bold;
+		li {
+			float: left;
+			display: block;
+			margin-left: 30px;
+			a {
+				height: 60px;
+				line-height: 60px;
+				display: block;
+			}
+		}
+	}
+}

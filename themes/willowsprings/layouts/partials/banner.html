@@ -1,0 +1,14 @@
+{{ with .Params.banner }}
+{{ if .enable }}
+<section class="banner" style="background-image: url('{{ .bg_image | relURL }}');">
+    <div class="container">
+        <div class="banner-copy">
+        <div class="banner-category">{{ .category }}</div>
+        <div class="banner-text">
+            {{ with .text }}<h1>{{ . | markdownify }}</h1>{{ end }}
+        </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

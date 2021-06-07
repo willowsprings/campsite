@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+{{ partial "partials/banner.html" . }}
+
+{{ with .Params.about }}
+{{ if .enable }}
+<section class="about section">
+  <div class="container">
+    {{ with .description }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+    {{ partial "ticklist.html" .features }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.camping }}
+{{ if .enable }}
+<section class="camping section">
+  <div class="container">
+
+    <ul class="camping-items">
+    {{ range .items -}}
+      <li>
+        <img src="{{ .img | relURL }}" />
+        <h4>{{ .title }}</h4>
+        <p>{{ .text }}</p>
+      </li>
+    {{- end }}
+    </ul>
+
+
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ partial "testimonial.html" .Params.testimonial }}
+{{ partial "photos.html" .Params.photos }}
+
+{{ end }}

@@ -1,0 +1,15 @@
+{{ if .enable }}
+<section class="testimonial section">
+  <div class="container">
+    <div class="quotes">“</div>
+    <div class="quote-text">
+      {{ .quote }}
+    </div>
+    <div class="byline">
+      {{.author}}, {{.date}}
+      <a target="_blank" href="https://www.tripadvisor.co.uk/Hotel_Review-g7144372-d13967982-Reviews-Willow_Springs_Campsite-Glyncorrwg_Neath_Port_Talbot_South_Wales_Wales.html"
+      >View all reviews</a>
+    </div>
+  </div>
+</section>
+{{ end }}

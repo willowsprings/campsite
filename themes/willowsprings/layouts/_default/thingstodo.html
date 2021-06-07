@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ with site.GetPage "/thingstodo"}}
+
+{{ partial "partials/banner.html" . }}
+{{ partial "partials/copyblock.html" . }}
+
+{{ with .Params.thingstodo }}
+<section class="section thingstodo">
+  <div class="container">
+    <ul class="things">
+      {{ range . -}}
+      <li class="thing">
+        <img src="{{.img | relURL}}"/>
+        <h3 class="title">{{.title}}</h3>
+        <p class="text">{{.text}}</p>
+      </li>
+      {{end}}
+    </ul>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}
+{{ end }}

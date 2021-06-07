@@ -1,0 +1,24 @@
+.testimonial {
+    background: $dark-bg;
+    color: white;
+    text-align: center;
+    color: #e2ebe6;
+    .quotes {
+        font-size: 88px;
+        line-height: 0.8;
+        margin-bottom: -20px;
+    }
+    .quote-text {
+        max-width: 800px;
+        font-weight: 500;
+        line-height: 1.5em;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .byline {
+        a {
+            margin-left: 10px;
+            color: white;
+        }
+    }
+}

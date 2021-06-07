@@ -1,0 +1,14 @@
+{{ with .Params.offerings }}
+<section class="section offerings">
+  <div class="container">
+    {{ range . -}}
+    <div class="offering">
+      <h3 class="title">{{.title}}</h3>
+      <p class="subtitle">{{.subtitle}}</p>
+      <div class="price">{{.price}}</div>
+      {{ partial "ticklist.html" .features }}
+    </div>
+    {{end}}
+  </div>
+</section>
+{{ end }}

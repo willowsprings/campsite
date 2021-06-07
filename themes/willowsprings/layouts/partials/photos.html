@@ -1,0 +1,11 @@
+<div class="section photosection">
+    <div class="container">
+        <ul class="photos">
+            {{ range . -}}
+            <li class="photo">
+                <img src="{{.src | relURL }}" />
+            </li>
+            {{end}}
+        </ul>
+    </div>
+</div>

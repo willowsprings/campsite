@@ -1,0 +1,8 @@
+<ul class="features">
+{{ range . -}}
+<li>
+    <span class="{{if .icon}}{{.icon}}{{else}}tick{{end}}"></span>
+    {{ .text }}
+</li>
+{{end}}
+</ul>

@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ with site.GetPage "/glamping"}}
+
+{{ partial "partials/banner.html" . }}
+{{ partial "partials/copyblock.html" . }}
+{{ partial "partials/offerings.html" . }}
+{{ partial "partials/extras.html" . }}
+
+{{ end }}
+{{ end }}
