@@ -180,7 +180,7 @@ weight = 5
 
 [[languages.en.menu.footer]]
 name = "Privacy policy"
-URL = "privacypolicy"
+URL = "privacy"
 weight = 6
 
 
