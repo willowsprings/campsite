@@ -1,0 +1,23 @@
+{
+  "name": "willowsprings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "umbrellajs": "^3.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willowsprings/campsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willowsprings/campsite/issues"
+  },
+  "homepage": "https://github.com/willowsprings/campsite#readme"
+}
