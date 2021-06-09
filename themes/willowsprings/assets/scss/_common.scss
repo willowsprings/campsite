@@ -307,29 +307,6 @@ input[type="tel"] {
   border-top: 4px solid #E8E3D8;
 }
 
-.things {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 40px;
-
-  .thing {
-    img {
-      height: 300px;
-      object-fit: cover;
-    }
-    .title {
-      color: $primary-color;
-      font-weight: bold;
-      margin-bottom: 8px;
-    }
-    .text {
-      font-size: 14px;
-      margin-top: 0;
-      line-height: 1.6;
-    }
-  }
-}
-
 .tick {
   // <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 100 100"><path d="M92 4L40 84 5 60" fill="none" stroke="green" stroke-width="14"/></svg>
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiPjxwYXRoIGQ9Ik05MiA0TDQwIDg0IDUgNjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iZ3JlZW4iIHN0cm9rZS13aWR0aD0iMTQiLz48L3N2Zz4=);

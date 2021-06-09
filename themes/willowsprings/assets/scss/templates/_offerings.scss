@@ -23,7 +23,7 @@
         column-gap: 50px;
         row-gap: 40px;
 
-        @include mobile {
+        @include tablet {
             display: block;
         }
     }
@@ -44,7 +44,7 @@
             top: 16px;
         }
 
-        @include mobile {
+        @include tablet {
             margin-bottom: 30px;
         }
     }
@@ -59,7 +59,7 @@
         // grid-auto-flow: column;
         margin-top: 30px;
 
-        @include mobile {
+        @include tablet {
             columns: initial;
         }
     }

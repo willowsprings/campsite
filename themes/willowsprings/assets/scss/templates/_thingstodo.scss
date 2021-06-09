@@ -1,0 +1,40 @@
+
+.section.thingstodo {
+    background: $light-bg;
+    padding-top: 0;
+}
+
+.things {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    @include desktop {
+        grid-template-columns: 1fr 1fr;
+    }
+    @include tablet {
+        display: block;
+    }
+
+    .thing {
+      img {
+        height: 300px;
+        object-fit: cover;
+      }
+      .title {
+        color: $primary-color;
+        font-weight: bold;
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+      .text {
+        font-size: 14px;
+        margin-top: 0;
+        line-height: 1.6;
+      }
+      margin-bottom: 30px;
+      @include tablet {
+          margin-bottom: 50px;
+      }
+    }
+  }

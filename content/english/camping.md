@@ -64,7 +64,7 @@ extras:
       price: £5
     - name: Ice-pack freezing
       price: £5
-    - name: Charging of phones, e-bikes and other electronics
+    - name: Charging of phones, e-bikes, etc
       price: £1/charge
 
 testimonial:

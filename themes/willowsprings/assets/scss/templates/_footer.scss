@@ -80,7 +80,7 @@
       display: inline-block;
       // position: absolute;
       margin-left: 8px;
-      @include mobile {
+      @include tablet {
         display: none;
       }
 
@@ -96,7 +96,7 @@
 
 
 
-  @include mobile {
+  @include tablet {
 
     padding-top: 10px;
 

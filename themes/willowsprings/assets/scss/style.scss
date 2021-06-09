@@ -12,30 +12,32 @@
 
 @import 'main.scss';
 
-@import 'templates/_header.scss';
+@import 'templates/header';
 
-@import 'templates/_navigation.scss';
+@import 'templates/navigation';
 
-@import 'templates/_service.scss';
+@import 'templates/service';
 
-@import 'templates/_testimonial.scss';
+@import 'templates/testimonial';
 
-@import 'templates/_contact.scss';
+@import 'templates/contact';
 
-@import 'templates/_pricing.scss';
+@import 'templates/pricing';
 
-@import 'templates/_about.scss';
+@import 'templates/about';
 
-@import 'templates/_404.scss';
+@import 'templates/404';
 
-@import 'templates/_message-sent.scss';
+@import 'templates/message-sent';
 
-@import 'templates/_footer.scss';
+@import 'templates/footer';
 
-@import 'templates/_homepage.scss';
+@import 'templates/homepage';
 
-@import 'templates/_offerings.scss';
+@import 'templates/offerings';
 
-@import 'templates/_photos.scss';
+@import 'templates/photos';
 
 @import 'hamburger/hamburgers.scss';
+
+@import 'templates/thingstodo';
