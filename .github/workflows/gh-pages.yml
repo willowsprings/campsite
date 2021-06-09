@@ -21,6 +21,9 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: js dependencies
+        run: npm i
+
       - name: Build
         run: hugo --minify
 
