@@ -32,12 +32,16 @@
 			</ul>
 
 			<p class="contact">
-				<a href="mailto: {{ site.Params.contact.email}}">{{site.Params.contact.email}}</a> /
-				<a href="tel: {{ site.Params.contact.phone}}">{{site.Params.contact.phone}}</a>
+				<a class="email" href="mailto: {{ site.Params.contact.email}}">{{site.Params.contact.email}}</a>
+				<a class="phone" href="tel: {{ site.Params.contact.phone}}">{{site.Params.contact.phone}}</a>
 			</p>
 
 			<p class="location">
-				<a href="https://goo.gl/maps/GKFRJ2LRcouph9Zp7" target="_blank">{{ replace site.Params.contact.location "\n" ", " }}</a>
+				<a class="address" href="https://goo.gl/maps/GKFRJ2LRcouph9Zp7" target="_blank">
+					{{ range (split site.Params.contact.location "\n") -}}
+					<span>{{.}}</span>
+					{{end}}
+				</a>
 			</p>
 
 			<p class="copyright">{{ site.Params.copyright | markdownify }}</p>
@@ -45,61 +49,6 @@
 	</div>
 </footer>
 
-<!-- Google Maps API -->
-{{ if site.Params.gmap.enable }}
-{{ if ("contact/" | relLangURL | eq .RelPermalink) }}
-<script defer src="https://maps.googleapis.com/maps/api/js?key={{ site.Params.gmap.gmap_api }}&libraries=places"></script>
-{{ end }}
-{{ end }}
-
-<!-- JS plugins -->
-{{ range site.Params.plugins.js }}
-<script src="{{ .link | relURL }}" {{ .attributes | safeHTMLAttr }}></script>
-{{ end }}
-
 <!-- Main script -->
-{{ $script := slice (resources.Get "js/script.js") (resources.Get "js/custom.js") | resources.Concat "js/bundled.js" | minify }}
-<script src="{{ $script.RelPermalink }}"></script>
-
-<!-- Cookie -->
-{{ if site.Params.cookies.enable }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
-<div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-main btn-solid-border">I Accept</span>
-</div>
-<script>
-	(function ($) {
-		const cookieBox = document.getElementById('js-cookie-box');
-		const cookieButton = document.getElementById('js-cookie-button');
-		if (!Cookies.get('cookie-box')) {
-			cookieBox.classList.remove('cookie-box-hide');
-			cookieButton.onclick = function () {
-				Cookies.set('cookie-box', true, {
-					expires: {{ site.Params.cookies.expire_days }}
-				});
-				cookieBox.classList.add('cookie-box-hide');
-			};
-		}
-	})(jQuery);
-</script>
-
-<!-- Cookie style -->
-<style>
-.cookie-box {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 9999;
-  padding: 1rem 2rem;
-  background: rgb(71, 71, 71);
-  transition: all .75s cubic-bezier(.19, 1, .22, 1);
-  color: #fdfdfd;
-}
-
-.cookie-box-hide {
-  display: none;
-}
-</style>
-{{ end }}
+{{ $js := resources.Get "js/main.js" | js.Build (dict "format" "iife" "sourceMap" "inline") }}
+<script src="{{ $js.RelPermalink }}"></script>

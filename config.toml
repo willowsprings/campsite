@@ -1,7 +1,6 @@
 ################################# Basic configuration #########################
-# Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-baseURL = "http://examplesite.org"
-title = "Airspace | Creative Agency Hugo Template"
+baseURL = "http://willowspringscampsite.co.uk"
+title = "Willow Springs Campsite"
 theme = "willowsprings"
 # Number of posts per page in list view
 paginate = "4"
@@ -138,12 +137,6 @@ link = "#"
 link = "plugins/ionicons/css/ionicons.min.css"
 attributes = ""
 
-# JS Plugins
-
-[[params.plugins.js]]
-link = "plugins/google-map/gmap.js"
-attributes = "defer"
-
 ################################# English translation #########################
 [languages.en]
 languageName = "English"
@@ -174,7 +167,7 @@ URL = "contact"
 weight = 4
 
 [[languages.en.menu.footer]]
-name = "Terms and conditions"
+name = "Terms & conditions"
 URL = "terms"
 weight = 5
 

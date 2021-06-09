@@ -28,6 +28,21 @@
         p {
             margin: 0;
         }
+
+        @include mobile {
+            grid-template-columns: repeat(1, 1fr);
+            li {
+                margin-bottom: 30px;
+                img {
+                    height: 260px;
+                    width: 100%;
+                    object-fit: cover;
+                }
+                h4 {
+                    margin-top: 0;
+                }
+            }
+        }
     }
 }
 

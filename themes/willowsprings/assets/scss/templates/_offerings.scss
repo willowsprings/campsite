@@ -22,6 +22,10 @@
         grid-template-columns: 1fr 1fr;
         column-gap: 50px;
         row-gap: 40px;
+
+        @include mobile {
+            display: block;
+        }
     }
     .offering {
         border-top: 4px solid #E8E3D8;
@@ -39,6 +43,10 @@
             right: 0;
             top: 16px;
         }
+
+        @include mobile {
+            margin-bottom: 30px;
+        }
     }
 }
 
@@ -50,6 +58,10 @@
         // grid-template-columns: 1fr 1fr;
         // grid-auto-flow: column;
         margin-top: 30px;
+
+        @include mobile {
+            columns: initial;
+        }
     }
     h3 {
         color: $dark-text;
