@@ -50,8 +50,10 @@
     }
 }
 
+
 .extras {
     background: $light-bg;
+    padding-top: 0;
     .extra-items {
         columns: 2;
         // display: grid;
@@ -64,8 +66,11 @@
         }
     }
     h3 {
+        border-top: 4px solid #E8E3D8;
+        padding-top: 16px;
         color: $dark-text;
         font-weight: bold;
+        margin-top: 0;
     }
     .extra {
         display: flex;

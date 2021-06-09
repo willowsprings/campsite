@@ -10,7 +10,7 @@ banner:
   enable: true
   category: Glamping
   text: Shepherd's huts
-  bg_image: "images/tmpbanner.jpg"
+  bg_image: "images/hutbanner-small.jpg"
 
 copyblock:
     text: Short camping seasons are a thing of the past! With our heated Shepherd's Huts, you can escape to the country all year round. Afan Forest Park has established itself as a mecca for mountain and road biking, walkers and explorers of South and Mid Wales - our glamping huts are perfect for solo explorers, couples and families.

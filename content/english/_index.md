@@ -7,7 +7,8 @@ menu:
 ############################### Banner ##############################
 banner:
   enable: true
-  bg_image: "images/tmpbanner.jpg"
+  large: true
+  bg_image: "images/tmpbanner3.jpg"
   text: "A quiet spot in the heart of Afan Forest Park"
 
 ############################# About #################################

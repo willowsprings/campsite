@@ -9,7 +9,7 @@ banner:
   enable: true
   category: Camping
   text: Tents, vans and motorhomes
-  bg_image: "images/tmpbanner.jpg"
+  bg_image: "images/camping-banner.jpg"
 
 copyblock:
     text: We have 10 private non-electric pitches for camper vans, tents, trailer tents, motorhomes (up to 25ft) and day vans. If you're concerned about Wales' climate, there's no need to fret — we have a walk-in drying room to dry clothes and boots, and a large shelter with seating for you to relax under, come rain or shine.
