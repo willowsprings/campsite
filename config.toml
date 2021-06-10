@@ -158,7 +158,7 @@ weight = 2
 
 [[languages.en.menu.footer]]
 name = "Local area"
-URL = "localarea"
+URL = "thingstodo"
 weight = 3
 
 [[languages.en.menu.footer]]
