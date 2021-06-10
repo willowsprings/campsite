@@ -1,6 +1,22 @@
 {{ define "main" }}
 
 {{ partial "partials/banner.html" . }}
+
+{{ if .Params.shepherdhutembed }}
+<div class="section booking-embed booking-embed-huts">
+    <div class="container container-padded">
+        <div class="wide-embed">
+            <div class="embed-scroll">
+                <div class="embed-container"><iframe class="cc-booking-grid" frameBorder="0" width="1000px" height="280px" src="https://bedful.com/widget?site_id=11011&group_id=2834&type=1&scope=2&channel_id=2&brand_colour=&secondary_colour="></iframe></div>
+            </div>
+        </div>
+        <div class="small-embed">
+            <iframe class="cc-booking-widget" frameBorder="0" width="270px" height="408px" src="https://bedful.com/widget?site_id=11011&group_id=2834&type=0&scope=2&channel_id=2&brand_colour=&secondary_colour="></iframe>
+        </div>
+    </div>
+</div>
+{{ end }}
+
 {{ partial "partials/copyblock.html" . }}
 {{ partial "partials/offerings.html" . }}
 {{ partial "partials/extras.html" . }}

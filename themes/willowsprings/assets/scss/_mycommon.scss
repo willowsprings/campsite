@@ -38,30 +38,47 @@
   }
 }
 
+.booking-embed {
+  background: $light-bg;
+  padding-bottom: 0;
+  .embed-scroll {
+    width: 100%;
+    overflow-x: auto;
+    @include large-desktop {
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+  }
+  .embed-container {
+    width: 1000px;
+  }
 
-/*=== MEDIA QUERY ===*/
-// @mixin mobile-xs {
-//   @media(max-width: 400px) {
-//     @content;
-//   }
-// }
-// @mixin mobile {
-//   @media(max-width: 480px) {
-//     @content;
-//   }
-// }
-// @mixin tablet {
-//   @media(max-width: 768px) {
-//     @content;
-//   }
-// }
-// @mixin desktop {
-//   @media(max-width: 992px) {
-//     @content;
-//   }
-// }
-// @mixin large-desktop {
-//   @media(max-width: 1200px) {
-//     @content;
-//   }
-// }
+  &.booking-embed-huts {
+    .small-embed {
+      display: none;
+      margin: auto;
+      width: fit-content;
+
+    }
+    @include tablet {
+      .wide-embed {
+        display: none;
+      }
+      .small-embed {
+        display: block;
+      }
+    }
+  }
+}
+
+.camping-embed {
+  display: block;
+  float: right;
+  margin-left: 100px;
+  // margin-right: 100px;
+  margin-top: -40px;
+  @include tablet {
+    float: none;
+    margin: auto;
+    width: fit-content;
+  }
+}

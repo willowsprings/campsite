@@ -101,4 +101,6 @@ photos:
 - small: images/gallery/IMG_2594.jpg
 - small: images/gallery/IMG_2595.jpg
 
+shepherdhutembed: true
+
 ---
