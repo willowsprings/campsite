@@ -28,12 +28,15 @@ camping:
   - title: Tents, vans and campervans
     text: Camping from £16/night
     img: images/homepage/camping1.jpg
+    href: camping
   - title: Shepherd's huts
     text: Glamping from £60/night
     img: images/homepage/camping2.jpg
+    href: glamping
   - title: Things to do
     text: Explore the local area
     img: images/homepage/camping3.jpg
+    href: thingstodo
 
 testimonial:
   enable: true

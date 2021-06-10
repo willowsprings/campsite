@@ -30,6 +30,7 @@
         }
         p {
             margin: 0;
+            color: $black-text;
         }
         @include tablet {
             grid-template-columns: repeat(2, 1fr);

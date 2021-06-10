@@ -21,9 +21,11 @@
     <ul class="camping-items">
     {{ range .items -}}
       <li>
-        <img src="{{ .img | relURL }}" />
-        <h4>{{ .title }}</h4>
-        <p>{{ .text }}</p>
+        <a href="{{.href | relURL}}">
+          <img src="{{ .img | relURL }}" />
+          <h4>{{ .title }}</h4>
+          <p>{{ .text }}</p>
+        </a>
       </li>
     {{- end }}
     </ul>
