@@ -20,8 +20,12 @@
             row-gap: 20px;
         }
         @include mobile {
+            display: block;
             column-gap: 0;
             row-gap: 0;
+            .photo {
+                margin-bottom: 10px;
+            }
 
         }
         img {
