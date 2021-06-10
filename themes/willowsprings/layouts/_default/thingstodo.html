@@ -10,9 +10,11 @@
     <ul class="things">
       {{ range . -}}
       <li class="thing">
-        <img src="{{.img | relURL}}"/>
-        <h3 class="title">{{.title}}</h3>
-        <p class="text">{{.text}}</p>
+        <a href="{{.href | relURL}}" target="_blank">
+          <img src="{{.img | relURL}}"/>
+          <h3 class="title">{{.title}}</h3>
+          <p class="text">{{.text}}</p>
+        </a>
       </li>
       {{end}}
     </ul>
