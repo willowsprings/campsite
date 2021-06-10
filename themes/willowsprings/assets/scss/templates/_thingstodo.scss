@@ -25,6 +25,9 @@
     .thing {
       $height: 360px;
 
+      a:hover {
+        filter: brightness(90%);
+      }
       img {
         height: $height;
         object-fit: cover;

@@ -32,6 +32,9 @@
             margin: 0;
             color: $black-text;
         }
+        a:hover {
+            filter: brightness(90%);
+        }
         @include tablet {
             grid-template-columns: repeat(2, 1fr);
         }

@@ -2,7 +2,11 @@
 {{ with site.GetPage "/thingstodo"}}
 
 {{ partial "partials/banner.html" . }}
-{{ partial "partials/copyblock.html" . }}
+<section class="section content">
+  <div class="container container-padded">
+    {{ partial "partials/copyblock.html" . }}
+  </div>
+</section>
 
 {{ with .Params.thingstodo }}
 <section class="section thingstodo">
