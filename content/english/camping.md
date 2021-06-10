@@ -15,7 +15,7 @@ copyblock:
     text: We have 10 private non-electric pitches for camper vans, tents, trailer tents, motorhomes (up to 25ft) and day vans. If you're concerned about Wales' climate, there's no need to fret — we have a walk-in drying room to dry clothes and boots, and a large shelter with seating for you to relax under, come rain or shine.
 
 offerings:
-- title: Tents, vans and motorhomes
+- title: Pitches
   subtitle: Price includes 2 people and 2 dogs
   price: £16/night
   features:

@@ -38,9 +38,14 @@
   }
 }
 
+section.content {
+  background: $light-bg;
+}
+
 .booking-embed {
   background: $light-bg;
   padding-bottom: 0;
+  padding-top: 20px;
   .embed-scroll {
     width: 100%;
     overflow-x: auto;
@@ -74,8 +79,6 @@
   display: block;
   float: right;
   margin-left: 100px;
-  // margin-right: 100px;
-  margin-top: -40px;
   @include tablet {
     float: none;
     margin: auto;

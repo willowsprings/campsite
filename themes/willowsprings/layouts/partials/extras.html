@@ -1,16 +1,14 @@
 {{ with .Params.extras }}
-<section class="section extras">
-  <div class="container container-padded">
-    <h3>{{.title}}</h3>
-    <p>{{.text}}</p>
-    <ul class="extra-items">
-      {{ range .items -}}
-      <li class="extra">
-        <div class="name">{{.name}}</div>
-        <div class="price">{{.price}}</div>
-      </li>
-      {{end}}
-    </ul>
-  </div>
-</section>
+<div class="extras">
+  <h3>{{.title}}</h3>
+  <p>{{.text}}</p>
+  <ul class="extra-items">
+    {{ range .items -}}
+    <li class="extra">
+      <div class="name">{{.name}}</div>
+      <div class="price">{{.price}}</div>
+    </li>
+    {{end}}
+  </ul>
+</div>
 {{ end }}

@@ -1,14 +1,10 @@
-{{ with .Params.offerings }}
-<section class="section offerings">
-  <div class="container container-padded">
-    {{ range . -}}
-    <div class="offering">
-      <h3 class="title">{{.title}}</h3>
-      <p class="subtitle">{{.subtitle}}</p>
-      <div class="price">{{.price}}</div>
-      {{ partial "ticklist.html" .features }}
-    </div>
-    {{end}}
+<div class="offerings {{ if .Params.campingembed }}offerings--campingembed{{end}}">
+  {{ range .Params.offerings -}}
+  <div class="offering">
+    <h3 class="title">{{.title}}</h3>
+    <p class="subtitle">{{.subtitle}}</p>
+    <div class="price">{{.price}}</div>
+    {{ partial "ticklist.html" .features }}
   </div>
-</section>
-{{ end }}
+  {{end}}
+</div>

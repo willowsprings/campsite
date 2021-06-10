@@ -16,20 +16,28 @@
 }
 
 .offerings {
-    background: $light-bg;
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 50px;
-        row-gap: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 40px;
 
-        @include tablet {
-            display: block;
+    @include tablet {
+        display: block;
+    }
+    &.offerings--campingembed {
+        .offering {
+            min-width: 300px;
+        }
+        @media(max-width: 880px) {
+            clear: both;
         }
     }
     .offering {
         border-top: 4px solid #E8E3D8;
         position: relative;
+        flex: 1;
+        min-width: 365px;
         .title {
             color: $dark-text;
             font-weight: bold;
@@ -53,7 +61,7 @@
 
 .extras {
     background: $light-bg;
-    padding-top: 0;
+    padding-top: 40px;
     .extra-items {
         columns: 2;
         column-gap: 50px;
