@@ -23,6 +23,19 @@
       padding: 0 10px;
     }
   }
+
+  h1 {
+    font-size: 48px;
+  }
+  h1, h2, h3 {
+    color: $dark-text;
+    font-weight: 700;
+  }
+
+  .contact a {
+    display: block;
+    line-height: 2;
+  }
 }
 
 

@@ -90,7 +90,7 @@
   }
 
   .address span {
-    &::after {
+    &:not(:last-child)::after {
       content: ',';
       display: inline;
       @include tablet {
