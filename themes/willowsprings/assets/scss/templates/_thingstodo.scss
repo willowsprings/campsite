@@ -7,19 +7,29 @@
 .things {
     display: grid;
     column-gap: 40px;
+
     grid-template-columns: 1fr 1fr 1fr;
 
     @include desktop {
         grid-template-columns: 1fr 1fr;
     }
+
+    @include large-desktop {
+      column-gap: 30px;
+    }
+
     @include tablet {
         display: block;
     }
 
     .thing {
+      $height: 360px;
+
       img {
-        height: 300px;
+        height: $height;
         object-fit: cover;
+        box-sizing: border-box;
+        width: 100%;
       }
       .title {
         color: $primary-color;
@@ -28,7 +38,7 @@
         margin-top: 8px;
       }
       .text {
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 0;
         line-height: 1.6;
       }
@@ -36,5 +46,34 @@
       @include tablet {
           margin-bottom: 50px;
       }
+
+      &:nth-child(2n) img {
+        $pad: 32px;
+        padding: $pad 0;
+        margin-bottom: -$pad;
+        @include desktop {
+          padding: 0;
+          margin-bottom: 0;
+        }
+      }
+      @include large-desktop {
+        img {
+          height: 300px;
+        }
+      }
+      @include tablet {
+        img {
+          height: 360px;
+        }
+      }
+      @include desktop {
+        &:nth-child(4n - 2) img,
+        &:nth-child(4n - 1) img {
+          $pad: 24px;
+          padding: $pad 0;
+          margin-bottom: -$pad;
+        }
+      }
+
     }
   }

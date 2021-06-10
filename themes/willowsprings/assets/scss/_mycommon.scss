@@ -16,6 +16,9 @@
     @include large-desktop {
       padding: 0 60px;
     }
+    @include tablet {
+      padding: 0 20px;
+    }
     @include mobile {
       padding: 0 10px;
     }

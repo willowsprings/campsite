@@ -17,7 +17,7 @@ copyblock:
 
 offerings:
 - title: Nutmeg (the fancy one)
-  subtitle: Up to 4 people. Not suitable for dogs.
+  subtitle: Up to 4 people and 2 dogs
   price: £70/night
   features:
   - text: Fitted double bed with orthopedic mattress
@@ -29,7 +29,7 @@ offerings:
   - text: Wood-burning stove
 
 - title: Clover and daisy
-  subtitle: Up to 4 people and 2 dogs.
+  subtitle: Up to 4 people and 2 dogs
   price: £60/night
   features:
   - text: Fitted double bed with orthopedic mattress

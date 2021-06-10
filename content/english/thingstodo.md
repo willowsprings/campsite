@@ -17,31 +17,28 @@ copyblock:
 
 thingstodo:
 - title: Afan Forest Park
-  img: images/tmpbanner.jpg
-  text: For hikeres and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
+  img: images/thingstodo/afanforest.jpg
+  text: For hikers and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
 - title: Aberavon beach
-  img: images/tmpbanner.jpg
-  text: For hikeres and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
+  img: images/thingstodo/aberavonbeach-thumb.jpg
+  text: For hikers and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
 - title: Dan Yr Ogof
-  img: images/tmpbanner.jpg
-  text: For hikeres and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
+  img: images/thingstodo/caves.jpg
+  text: For hikers and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
 - title: Aberdulais waterfalls
-  img: images/tmpbanner.jpg
-  text: For hikeres and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
+  img: images/thingstodo/aberdulais.jpg
+  text: For hikers and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
 - title: South Wales Miners' Museum
-  img: images/tmpbanner.jpg
-  text: For hikeres and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
+  img: images/thingstodo/minersmuseum.jpg
+  text: For hikers and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
 - title: LC2 Waterpark
-  img: images/tmpbanner.jpg
-  text: For hikeres and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
+  img: images/thingstodo/lc2.jpg
+  text: For hikers and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
 - title: Margam Abbey & Country Park
-  img: images/tmpbanner.jpg
-  text: For hikeres and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
+  img: images/thingstodo/margam-abbey.jpg
+  text: For hikers and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
 - title: The Gower & Swansea bay
-  img: images/tmpbanner.jpg
-  text: For hikeres and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
-- title: Afan Forest Park
-  img: images/tmpbanner.jpg
-  text: For hikeres and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
+  img: images/thingstodo/gower.jpg
+  text: For hikers and mountainbikers. Afan Forest Park is home to 6 world class trails, boasting over 100km of singletrack trails. The Afan Bike Park allows riders to improve their riding skill and have hours of winding, swerving fun with berms and jumps.
 
 ---
