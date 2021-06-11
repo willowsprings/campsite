@@ -1,11 +1,9 @@
 <div class="section photosection">
     <div class="container container-widepadded">
-        <ul class="photos">
+        <div class="photos">
             {{ range . -}}
-            <li class="photo">
-                <img src="{{.small | relURL }}" />
-            </li>
+            <img class="photo" src="{{.small | relURL }}" />
             {{end}}
-        </ul>
+        </div>
     </div>
 </div>

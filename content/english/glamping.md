@@ -96,10 +96,11 @@ testimonial:
 
 photos:
 - small: images/gallery/IMG_2587.JPG
-- small: images/gallery/IMG_2590.jpg
+- small: images/gallery/thumbs/sittingarea-thumb.jpg
+- small: images/gallery/thumbs/hut1-thumb.jpg
+- small: images/gallery/thumbs/huts-thumb.jpg
 - small: images/gallery/IMG_2591.jpg
-- small: images/gallery/IMG_2594.jpg
-- small: images/gallery/IMG_2595.jpg
+- small: images/gallery/thumbs/ch3inside-thumb.jpg
 
 shepherdhutembed: true
 

@@ -46,9 +46,9 @@ testimonial:
 
 photos:
 - small: images/gallery/IMG_2587.JPG
-- small: images/gallery/IMG_2590.jpg
+- small: images/gallery/thumbs/sittingarea-thumb.jpg
 - small: images/gallery/IMG_2591.jpg
-- small: images/gallery/IMG_2594.jpg
-- small: images/gallery/IMG_2595.jpg
+- small: images/gallery/thumbs/driveway-thumb.jpg
+- small: images/gallery/thumbs/river2-thumb.jpg
 
 ---

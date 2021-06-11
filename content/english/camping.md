@@ -74,11 +74,12 @@ testimonial:
   date: Aug 2020
 
 photos:
-- small: images/gallery/IMG_2587.JPG
-- small: images/gallery/IMG_2590.jpg
 - small: images/gallery/IMG_2591.jpg
 - small: images/gallery/IMG_2594.jpg
+- small: images/gallery/thumbs/belltent-thumb.jpg
+- small: images/gallery/thumbs/river2-thumb.jpg
 - small: images/gallery/IMG_2595.jpg
+- small: images/gallery/thumbs/driveway-thumb.jpg
 
 campingembed: true
 
