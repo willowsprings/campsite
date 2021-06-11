@@ -1,6 +1,6 @@
 ################################# Basic configuration #########################
 baseURL = "http://willowspringscampsite.co.uk"
-title = "Willow Springs Campsite"
+title = "Willow Springs Campsite, Camping Afan Forest, Port Talbot, South Wales"
 theme = "willowsprings"
 # Number of posts per page in list view
 paginate = "4"
@@ -39,9 +39,9 @@ ordered = false
 logo = "images/logo.svg"
 logo_width = "150px"
 # OpenGraph / Twitter Card metadata
-description = "This is meta description"
-author = "Themefisher"
-image = "images/logo.svg" # this image will be used as fallback if a page has no image of its own
+description = "Peaceful, eco-friendly campsite ideal for relaxing breaks in the Afan Forest in Port Talbot, South Wales. We are a small campsite with private pitches for tents, motorhomes and campers. We also have a glamping shepherd's hut."
+author = "Willow Springs"
+image = "images/tmpbanner3.jpg" # this image will be used as fallback if a page has no image of its own
 
 
 ################################# Sidebar widgets #############################
