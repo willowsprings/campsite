@@ -12,7 +12,7 @@ banner:
   bg_image: "images/camping-banner.jpg"
 
 copyblock:
-    text: We have 10 private non-electric pitches for camper vans, tents, trailer tents, motorhomes (up to 25ft) and day vans. If you're concerned about Wales' climate, there's no need to fret — we have a walk-in drying room to dry clothes and boots, and a large shelter with seating for you to relax under, come rain or shine. Fires and BBQs are encourage! However, due to our close proximity to Afan Forest, we may have to restrict their use or location if conditions become conducive for forest fires.
+    text: We have 10 private non-electric pitches for camper vans, tents, trailer tents, motorhomes (up to 25ft) and day vans. If you're concerned about Wales' climate, there's no need to fret — we have a walk-in drying room to dry clothes and boots, and a large shelter with seating for you to relax under, come rain or shine. Fires and BBQs are encouraged! However, due to our close proximity to Afan Forest, we may have to restrict their use or location if conditions become conducive for forest fires.
 
 offerings:
 - title: Pitches
@@ -70,7 +70,8 @@ extras:
 
 testimonial:
   enable: true
-  quote: Went for a short 2 day break and decided to book a shepherds hut instead of our tent. 5* Fabulous location in that it is quiet and secluded far from any roads. Great views on the edge of the Afan Forest with walks galore. Fantastic friendly hosts who have made this a top site. Eco friendly with clean facilities and well spaced plots. The addition of a fire pit was the icing on the cake. 
+  quote: This is our 2nd time at Willow Springs, and it never fails to disappoint... Totally love the camp site, it's a total gem and so peaceful and beautiful. It's a real family friendly vibe! Me and my partner can't wait to go back!
+  author: Guest from Bristol
   date: Sep 2020
 
 photos:
