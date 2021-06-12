@@ -20,22 +20,23 @@ offerings:
   subtitle: Up to 4 people and 2 dogs
   price: £70/night
   features:
-  - text: Fitted double bed with orthopedic mattress
+  - text: Fitted double bed
   - text: Sofa bed
   - text: Private firepit
-  - text: Bistro table and 2 chairs
+  - text: Bistro table and 4 chairs
+  - text: Solar-powered lights
   - text: Separate cookhouse
-  - text: Solar-powered lights and USB charging
-  - text: Wood-burning stove
+  - text: Wood-burning stove (not suitable for kids or pets)
 
 - title: Clover and daisy
   subtitle: Up to 4 people and 2 dogs
   price: £60/night
   features:
-  - text: Fitted double bed with orthopedic mattress
+  - text: Fitted double bed
   - text: Sofa bed
   - text: Private firepit
   - text: Bistro table and 2 chairs
+  - text: Solar-powered lights
   - text: Picnic table
   - text: Child and pet-safe electric heater
 
@@ -47,7 +48,8 @@ offerings:
   - text: Sheltered sink for washing up
   - text: Solar-powered drying room
   - text: Sheltered area with tables and chairs for when it's rainy
-  - text: Spring water for drinking and washing
+  - text: Free drinking water from the spring
+  - text: Dog and bike wash
   - text: WC disposal area
 
 - title: Not included, please bring with you
