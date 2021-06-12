@@ -92,8 +92,8 @@ extras:
 
 testimonial:
   enable: true
-  quote: Quiet, clean, well serviced and welcoming campsite, perfectly located for mountain bikers and walkers looking to explore the surrounding forestry and mountains. Would highly recommend if you’re looking for somewhere quiet and stress free with great views...
-  author: Guest from Cardiff
+  quote: Went for a short 2 day break and decided to book a shepherds hut instead of our tent. 5* Fabulous location in that it is quiet and secluded far from any roads. Great views on the edge of the Afan Forest with walks galore. Fantastic friendly hosts who have made this a top site. Eco friendly with clean facilities and well spaced plots. The addition of a fire pit was the icing on the cake...
+  author: Guest from Chesham
   date: Aug 2020
 
 photos:
