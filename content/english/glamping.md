@@ -13,7 +13,7 @@ banner:
   bg_image: "images/hutbanner-small.jpg"
 
 copyblock:
-    text: Short camping seasons are a thing of the past! With our heated Shepherd's Huts, you can escape to the country all year round. Afan Forest Park has established itself as a mecca for mountain and road biking, walkers and explorers of South and Mid Wales - our glamping huts are perfect for solo explorers, couples and families.
+    text: Our shepherd's huts allow you to escape to the country all year round. Wether you go for the wood-burner or the child-safe electric heating, it's always nice and warm. A bistro table and chairs are provided for use inside or outside, and your firepit is included with your booking to toast your marshmallows.
 
 offerings:
 - title: Nutmeg (the fancy one)
