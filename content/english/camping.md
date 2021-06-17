@@ -76,11 +76,12 @@ testimonial:
 
 photos:
 - small: images/gallery/IMG_2591.jpg
-- small: images/gallery/IMG_2594.jpg
+- small: images/gallery/thumbs/P6150845.jpg
 - small: images/gallery/thumbs/belltent-thumb.jpg
 - small: images/gallery/thumbs/river2-thumb.jpg
 - small: images/gallery/IMG_2595.jpg
 - small: images/gallery/thumbs/driveway-thumb.jpg
+- small: images/gallery/thumbs/sitepic.jpg
 
 campingembed: true
 

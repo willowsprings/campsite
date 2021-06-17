@@ -8,7 +8,7 @@ menu:
 banner:
   enable: true
   large: true
-  bg_image: "images/tmpbanner3.jpg"
+  bg_image: "images/homepagebanner.jpg"
   text: "A quiet spot in the heart of Afan Forest Park"
 
 ############################# About #################################
@@ -27,15 +27,15 @@ camping:
   items:
   - title: Tents, vans and campervans
     text: Camping from £16/night
-    img: images/homepage/camping1.jpg
+    img: images/camping-cta.jpg
     href: camping
   - title: Shepherd's huts
     text: Glamping from £60/night
-    img: images/homepage/camping2.jpg
+    img: images/gallery/thumbs/P6150883.jpg
     href: glamping
   - title: Things to do
     text: Explore the local area
-    img: images/homepage/camping3.jpg
+    img: images/thingstodo/afanforest.jpg
     href: thingstodo
 
 testimonial:
@@ -46,9 +46,14 @@ testimonial:
 
 photos:
 - small: images/gallery/IMG_2587.JPG
-- small: images/gallery/thumbs/sittingarea-thumb.jpg
+- small: images/gallery/thumbs/P6150896.jpg
 - small: images/gallery/IMG_2591.jpg
 - small: images/gallery/thumbs/driveway-thumb.jpg
-- small: images/gallery/thumbs/river2-thumb.jpg
+- small: images/gallery/thumbs/IMG_20210603_165530.jpg
+- small: images/gallery/thumbs/DSC_0018.jpg
+- small: images/gallery/thumbs/P6150883.jpg
+- small: images/gallery/thumbs/P6150886.jpg
+- small: images/gallery/thumbs/sitepic.jpg
+
 
 ---

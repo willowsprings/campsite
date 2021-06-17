@@ -10,7 +10,7 @@ banner:
   enable: true
   category: Glamping
   text: Shepherd's huts
-  bg_image: "images/hutbanner-small.jpg"
+  bg_image: "images/hut-banner.jpg"
 
 copyblock:
     text: Our shepherd's huts allow you to escape to the country all year round. Wether you go for the wood-burner or the child-safe electric heating, it's always nice and warm. A bistro table and chairs are provided for use inside or outside, and your firepit is included with your booking to toast your marshmallows.
@@ -98,11 +98,16 @@ testimonial:
 
 photos:
 - small: images/gallery/IMG_2587.JPG
-- small: images/gallery/thumbs/sittingarea-thumb.jpg
 - small: images/gallery/thumbs/hut1-thumb.jpg
-- small: images/gallery/thumbs/huts-thumb.jpg
 - small: images/gallery/IMG_2591.jpg
 - small: images/gallery/thumbs/ch3inside-thumb.jpg
+- small: images/gallery/thumbs/P6150883.jpg
+- small: images/gallery/thumbs/P6150890.jpg
+- small: images/gallery/thumbs/P6150896.jpg
+- small: images/gallery/thumbs/P6150886.jpg
+- small: images/gallery/thumbs/P6150832.jpg
+- small: images/gallery/thumbs/P6150834.jpg
+- small: images/gallery/thumbs/sitepic.jpg
 
 shepherdhutembed: true
 

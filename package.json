@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "masonry-layout": "^4.2.2",
     "umbrellajs": "^3.2.3"
   },
   "devDependencies": {},

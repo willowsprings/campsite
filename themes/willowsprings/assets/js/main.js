@@ -1,4 +1,5 @@
 import u from 'umbrellajs';
+import Masonry from 'masonry-layout';
 
 function ready(fn) {
 	if (document.readyState != 'loading'){
@@ -19,6 +20,13 @@ window.addEventListener('DOMContentLoaded', () => {
 		u(this).toggleClass('is-active');
 		console.log('click');
 	})
+
+	// var elem = document.querySelector('.photos');
+	// var msnry = new Masonry( elem, {
+	// 	// options
+	// 	itemSelector: '.photo',
+	// 	// percentPosition: true
+	// });
 
 	// console.log(hamburger);
 });
