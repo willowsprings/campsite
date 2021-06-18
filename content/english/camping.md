@@ -45,8 +45,6 @@ extras:
     items:
     - name: Additional vehicle
       price: £2/night
-    - name: Fire pit hire
-      price: £5
     - name: Firelighters
       price: £2
     - name: Disposable lighter

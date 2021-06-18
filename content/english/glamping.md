@@ -17,7 +17,7 @@ copyblock:
 
 offerings:
 - title: Nutmeg (the fancy one)
-  subtitle: Up to 4 people and 2 dogs
+  subtitle: Up to 4 people
   price: £70/night
   features:
   - text: Fitted double bed
@@ -67,8 +67,6 @@ extras:
     items:
     - name: Additional vehicle
       price: £2/night
-    - name: Fire pit hire
-      price: £5
     - name: Firelighters
       price: £2
     - name: Disposable lighter
