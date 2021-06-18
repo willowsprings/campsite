@@ -34,4 +34,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
           external_repository: willowsprings/willowsprings.github.io
-          cname: test.willowspringscampsite.co.uk
+          cname: willowspringscampsite.co.uk
