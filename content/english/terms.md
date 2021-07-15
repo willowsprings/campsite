@@ -6,16 +6,16 @@ layout: "basicmd"
 All rules are here to make sure everyone can have a safe, quiet and peaceful stay. In short, be respectful, keep the noise down and make sure you’re not putting yourself or anyone else at risk. If you don’t follow the rules below, we reserve the right to ask you to leave and cancel your booking without a refund.  
 
 ## On arrival
-- Please drive to reception, we’ll give you a short induction and tell you where to go. Don’t park on just any pitch.
-- Arrival is strictly between 15:00 and 22:00
+* Please drive to reception, we’ll give you a short induction and tell you where to go. Don’t park on just any pitch.
+* Arrival is strictly between 15:00 and 22:00
 
 ## Before you leave
-- Checkout is 12:00
-- Recycling is not optional. There are fines of £30 for littering or failing to sort your rubbish properly
-- Bring anything you borrowed back to reception, such as wood buckets or fire pits
+* Checkout is 12:00
+* Recycling is not optional. There are fines of £30 for littering or failing to sort your rubbish properly
+* Bring anything you borrowed back to reception, such as wood buckets or fire pits
 
 ## Noise
-- Quiet hours between 23:00 - 08:00
+* Quiet hours between 23:00 - 08:00
 - No speakers, radios or music players of any kind. I know, I’m sorry, but we get so many complaints from other campers!
 - Acoustic instruments played at respectful volumes are allowed outside of quiet hours
 - Playing “Wonderwall” is not allowed under any circumstance
