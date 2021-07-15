@@ -71,16 +71,16 @@ extras:
       price: £2
     - name: Disposable lighter
       price: £1
-    - name: Firewood net
+    - name: Firewood
       price: £6
-    - name: Firewood kindling
+    - name: Kindling
       price: £5
     - name: Smidge insect repellent
       price: £10
     - name: After bite
       price: £5
     - name: Midge head net
-      price: £2
+      price: £4
     - name: MTB trail map pack
       price: £5
     - name: Ice-pack freezing
