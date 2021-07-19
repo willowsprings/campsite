@@ -11,7 +11,8 @@ All rules are here to make sure everyone can have a safe, quiet and peaceful sta
 
 ## Before you leave
 * Checkout is 12:00
-* Recycling is not optional. There are fines of £30 for littering or failing to sort your rubbish properly
+* Recycling is not optional. There are fines of £30 for littering or failing to sort your rubbish properly.
+* We offer recycling facilities only so please take your landfill waste off-site with you. We can provide rubbish bags at reception.
 * Bring anything you borrowed back to reception, such as wood buckets or fire pits
 
 ## Noise
