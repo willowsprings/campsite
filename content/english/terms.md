@@ -37,10 +37,11 @@ All rules are here to make sure everyone can have a safe, quiet and peaceful sta
 * No refunds
 
 ## Fires
-* We allow fires and BBQs within your pitch, or in the communal fire area in front of the field shelter
-* We are located next to the forestry, when there is a risk of forest fires, the use of BBQ’S and firepits will be limited to a designated area
+* We allow fires and BBQs within your pitch, or in the communal fire area in front of the field shelter.
+* No disposable BBQs. We can provide grills for our fire pits.
 * Gas cooking equipment may be used on the pitches at any time. 
 * Always discard coals into the buckets provided. 
+* We are located next to the forestry, when there is a risk of forest fires, the use of BBQ’S and firepits will be limited to a designated area
 * Please do not take wood from the Campsite or Forestry to use in fire pits
 
 ## Group bookings
