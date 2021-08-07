@@ -49,7 +49,7 @@ thingstodo:
 - title: Margam Abbey & Country Park
   href: http://www.margamcountrypark.co.uk/default.aspx?page=1325
   img: images/thingstodo/margam-abbey.jpg
-  text: The park offers a number of activities, from coarse fishibng to horseriding. It also contains a 19th Century Tudor Gothic Mansion, surrounded by beautiful gardens, lakes and wildlife such as deer, foxes, badgers, voles and grey squirrels.
+  text: The park offers a number of activities, from coarse fishing to horseriding. It also contains a 19th Century Tudor Gothic Mansion, surrounded by beautiful gardens, lakes and wildlife such as deer, foxes, badgers, voles and grey squirrels.
   
 - title: The Gower & Swansea bay
   href: https://www.visitwales.com/destinations/west-wales/swansea-bay/exploring-gower-peninsula
