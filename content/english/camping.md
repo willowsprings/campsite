@@ -17,7 +17,7 @@ copyblock:
 offerings:
 - title: Pitches
   subtitle: Price includes 2 people
-  price: £16/night
+  price: £20/night
   features:
   - text: Private grass pitch
   - text: Free for dogs and babies

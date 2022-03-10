@@ -18,7 +18,7 @@ copyblock:
 offerings:
 - title: Nutmeg (the fancy one)
   subtitle: Up to 4 people
-  price: £70/night
+  price: £80/night
   features:
   - text: Fitted double bed
   - text: Sofa bed
@@ -30,7 +30,7 @@ offerings:
 
 - title: Clover and daisy
   subtitle: Up to 4 people and 2 dogs
-  price: £60/night
+  price: £70/night
   features:
   - text: Fitted double bed
   - text: Sofa bed
